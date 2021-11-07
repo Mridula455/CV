@@ -1,3 +1,5 @@
+
+
 .top_flex-container{
     display:flex;
     background-color:#CAB8FF;
@@ -7,14 +9,19 @@
     align-items: center;
 }
 
-
+@media only screen and(max-width:600px) {
+    .top_flex-container{
+        background-color: #7f7c82;
+    }
+    
+}
 
 .intro-flex-container{
     display: flex;
     justify-content: center;
     align-items:center;
     flex-direction: column;
-    margin: 60px;
+    margin: 60px auto;
 }
 
 .project_flex_container{
@@ -23,7 +30,7 @@
     justify-content: center;
     align-items:center;
     flex-wrap:nowrap;
-    margin:30px;
+    margin:60px auto;
 }
 
 .skill_flex_container{
@@ -32,6 +39,7 @@
     justify-content: center;
     align-items:center;
     flex-wrap: nowrap;
+    margin:60px auto;
 
 }
 
@@ -41,6 +49,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+    
 }
 
 .footer_section{
@@ -50,17 +59,10 @@
     align-items: center;
     flex-wrap: nowrap;
     background-color:#cfacb8;
-    flex-grow: 8;
     margin-top: 30px;
-    width: 100%;
+    max-width: 100%;
 }
 
-
-.top_flex-container > div{
-    font-size:20px;
-    padding:10px;
-    margin:40px;
-}
 
     
 h2{
@@ -73,7 +75,7 @@ h2{
 .img{
     width:15%;
     padding:35px;
-    max-width:100%
+    max-width: 100%;
 }
 
 
@@ -105,7 +107,7 @@ h4{
     width:150px;
     border-radius:100px;
     border:3px solid #CAB8FF;
-    max-width:100%;
+    max-width: 100%;
 }
 
 .intro{
@@ -137,7 +139,7 @@ h4{
     padding: 10px 20px 10px 20px;
     border: solid #CAB8FF 10px;
     text-decoration: none;
-    margin:120px;
+    margin:130px auto 130px auto;
   }
 
   .btn:hover {
