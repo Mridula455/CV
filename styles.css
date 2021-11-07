@@ -73,6 +73,7 @@ h2{
 .img{
     width:15%;
     padding:35px;
+    max-width:100%
 }
 
 
@@ -82,10 +83,7 @@ h1{
     font-family: 'Sacramento', cursive;
 
 }
-.skill_img{
-    width:10%;
-    padding:10px;
-}
+
 h3{
     font-family: 'Montserrat', sans-serif;
     font-size:2.0rem;
@@ -107,6 +105,7 @@ h4{
     width:150px;
     border-radius:100px;
     border:3px solid #CAB8FF;
+    max-width:100%;
 }
 
 .intro{
